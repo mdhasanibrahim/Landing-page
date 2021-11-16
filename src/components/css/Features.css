@@ -1,0 +1,44 @@
+.outer {
+    height: 471px;
+    width: 50%;
+    background-color: #FBF3F0;
+    margin: auto;
+    transform: translateY(200px);
+    border-radius: 100px;
+}
+.inner {
+    height: 221px;
+    width: 495px;
+    margin: auto;
+    transform: translateY(50%);
+    background: url("../images/Group48095672.png") no-repeat center;
+    background-size: cover;
+}
+.circle {
+    position: absolute;
+    height: 318px;
+    width: 318px;
+    border-radius: 50%;
+    background-color: #FBF3F0;
+    transform: translate(-180px,200px);
+}
+.oval {
+    position: absolute;
+    height: 492px;
+    width: 642px;
+    border-radius: 500px / 400px;
+    border: 15px dashed #FBF3F0;
+    transform: rotate(-35deg) translate(1100px, 650px);
+}
+.header-1 {
+    width: 60%;
+    margin: auto;
+    padding-top: 400px;
+    text-align: center;
+}
+.header-1 h1 {
+    font-size: 46px;
+    color: #494980;
+    font-weight: 800;
+    font-family: "Gotham", sans-serif;
+}
