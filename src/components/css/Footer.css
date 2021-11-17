@@ -1,0 +1,92 @@
+li:not(:last-child) {
+    margin-bottom: 10px;
+}
+.outer-footer {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.inner-1 {
+    height: 220px;
+    width: 230px;
+    margin-left: 8%;
+    margin-top: 200px;
+    margin-right: 3%;
+}
+.list {
+    list-style-type: none;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 0;
+}
+.title-1 {
+    font-size: 40px;
+    color: #243346;
+    font-weight: 800;
+}
+.para-1 {
+    margin-top: 20px;
+    color: #8B8D8F;
+    font-size: 13px;
+    font-weight: 500;
+}
+.inner-2 {
+    height: 220px;
+    width: 200px;
+    margin-top: 200px;
+    margin-right: 3%;
+}
+.inner-3 {
+    height: 220px;
+    width: 220px;
+    margin-top: 200px;
+    margin-right: 3%;
+}
+.inner-4 {
+    height: 220px;
+    width: 260px;
+    margin-top: 200px;
+    margin-right: 3%;
+}
+.inner-5 {
+    height: 220px;
+    width: 300px;
+    margin-right: 8%;
+    margin-top: 200px;
+}
+.title {
+    font-size: 22px;
+    color: #243346;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+.pera {
+    color: #8B8D8F;
+    font-size: 18px;
+    font-weight: 500;
+}
+.social {
+    padding-bottom: 20px;
+}
+.social a {
+    margin-right: 50px;
+    color: #243346;
+}
+.btn-cls-1 {
+    height: 30px;
+    width: 80px;
+    border-radius: 15px;
+    border: none;
+    background: url("../images/Group48095582.png") no-repeat center;
+    background-size: cover;
+}
+.btn-cls-2 {
+    margin-left: 20px;
+    height: 30px;
+    width: 80px;
+    border-radius: 15px;
+    border: none;
+    background: url("../images/Group48095585.png") no-repeat center;
+    background-size: cover;
+}

@@ -1,0 +1,54 @@
+.outer-div {
+    height: 641px;
+    width: 100%;
+    background: linear-gradient(to right, #FDF5F5, #FEF8F8);
+    margin-top: 200px;
+}
+.inner-div {
+    height: 407px;
+    width: 1170px;
+    margin: auto;
+    top: 50%;
+    transform: translateY(40%);
+    background: url("../images/Group78.png") no-repeat center;
+    background-size: cover;
+}
+.inner-div-text {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.inner-div-text h1 {
+    color: #494980;
+}
+.inner-div-text p {
+    color: #AFB0B4;
+}
+.field-email {
+    text-align: center;
+    margin-top: 50px;
+}
+.field-email input{
+    height: 65px;
+    width: 50%;
+    background-color: #FFF1F1;
+    border-radius: 130px;
+    border: none;
+}
+.field-email ::placeholder {
+    color: #494980;
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 50px;
+}
+.send-btn button {
+    position: absolute;
+    height: 65px;
+    width: 148px;
+    border-radius: 130px;
+    border: none;
+    transform: translate(732px, -66px);
+    background: url("../images/Group48095675.png") no-repeat center;
+    background-size: cover;
+}

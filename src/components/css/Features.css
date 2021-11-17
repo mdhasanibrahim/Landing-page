@@ -11,7 +11,38 @@
     width: 495px;
     margin: auto;
     transform: translateY(50%);
-    background: url("../images/Group48095672.png") no-repeat center;
+}
+.inner-text-section {
+    text-align: center;
+    font-family: "Gotham", sans-serif;
+    color: #494980;
+}
+.inner-text-section h1{
+    font-size: 46px;
+    font-weight: 800;
+}
+.inner-text-section p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.btn-div {
+    display: flex;
+}
+.btn-div button{
+    height: 72px;
+    width: 228px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 60px;
+}
+.btn-div .btn-1 button{
+    margin-right: 20px;
+    background: url("../images/Group48095582.png") no-repeat center;
+    background-size: cover;
+}
+.btn-div .btn-2 button{
+    margin-left: 20px;
+    background: url("../images/Group48095585.png") no-repeat center;
     background-size: cover;
 }
 .circle {
@@ -41,4 +72,271 @@
     color: #494980;
     font-weight: 800;
     font-family: "Gotham", sans-serif;
+}
+.behind-pic {
+    height: 866px;
+    width: 836px;
+    position: absolute;
+    background-color: #FBF3F0;
+    margin-top: 200px;
+    border-radius: 100px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: -2;
+}
+.phn-pic {
+    height: 1000px;
+    width: 570px;
+    background: url("../images/MockUp-2.png") no-repeat center;
+    background-size: cover;
+    position: absolute;
+    left: 50%;
+    transform: translate(-54%, 70px);
+    z-index: -1;
+}
+.upper-div {
+    height: 330px;
+    width: 100%;
+    margin-top: 300px;
+}
+.bottom-div {
+    height: 330px;
+    width: 100%;
+    margin-top: 85px;
+}
+.left-div {
+    background-color: white;
+    height: inherit;
+    width: 330px;
+    float: left;
+    margin-left: 10%;
+    border-radius: 30px;
+    box-shadow: 1px 1px 10px #dbdbdb;
+}
+.right-div {
+    background-color: white;
+    height: inherit;
+    width: 330px;
+    float: right;
+    margin-right: 10%;
+    border-radius: 30px;
+    box-shadow: 1px 1px 10px #dbdbdb;
+}
+.upper-div .left-div .icon {
+    height: 60px;
+    width: 72px;
+    background: url("../images/Group48095652.png") no-repeat center;
+    background-size: cover;
+    margin: auto;
+    margin-top: 40px;
+}
+.upper-div .right-div .icon {
+    height: 58px;
+    width: 62px;
+    background: url("../images/Group.png") no-repeat center;
+    background-size: cover;
+    margin: auto;
+    margin-top: 25px;
+}
+.bottom-div .left-div .icon {
+    height: 60px;
+    width: 90px;
+    background: url("../images/Group1.png") no-repeat center;
+    background-size: cover;
+    margin: auto;
+    margin-top: 40px;
+}
+.bottom-div .right-div .icon {
+    height: 62px;
+    width: 72px;
+    background: url("../images/Group2.png") no-repeat center;
+    background-size: cover;
+    margin: auto;
+    margin-top: 40px;
+}
+.box-title {
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 18px;
+    font-weight: 800;
+    font-family: "Gotham", sans-serif;
+    color: #494980;
+}
+.inside-text {
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Gotham", sans-serif;
+    color: #AFB0B4;
+    text-align: justify;
+}
+.readmore-btn {
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Gotham", sans-serif;
+    cursor: pointer;
+}
+#upper-left-btn {
+    color: #92D27B;
+}
+#upper-right-btn {
+    color: #87CCFF;
+}
+#bottom-left-btn {
+    color: #DB78EB;
+}
+#bottom-right-btn {
+    color: #FFB800;
+}
+.header-2 {
+    width: 60%;
+    margin: auto;
+    padding-top: 200px;
+    text-align: center;
+}
+.header-2 h1 {
+    font-size: 46px;
+    color: #494980;
+    font-weight: 800;
+    font-family: "Gotham", sans-serif;
+}
+.header-2-text {
+    height: 68px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: #494980;
+    font-size: 18px;
+    font-family: "Gotham", sans-serif;
+}
+.circle-2 {
+    position: absolute;
+    height: 318px;
+    width: 318px;
+    border-radius: 50%;
+    background-color: #FBF3F0;
+    transform: translate(1340px,-270px);
+}
+.pic-2 {
+    height: 681px;
+    width: 1218px;
+    margin: auto;
+    margin-top: 145px;
+    background: url("../images/Group48095592.png") no-repeat center;
+    background-size: cover;
+}
+.header-3 {
+    width: 60%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+.header-3 h1 {
+    font-size: 46px;
+    color: #494980;
+    font-weight: 800;
+    font-family: "Gotham", sans-serif;
+}
+.header-3-text {
+    height: 68px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: #494980;
+    font-size: 18px;
+    font-family: "Gotham", sans-serif;
+}
+.circle-3 {
+    position: absolute;
+    height: 547px;
+    width: 547px;
+    border-radius: 50%;
+    background-color: #FBF3F0;
+    transform: translate(-410px,-335px);
+}
+.pic-3 {
+    height: 912px;
+    width: 1101px;
+    margin: auto;
+    margin-top: 145px;
+    background: url("../images/Group48095647.png") no-repeat center;
+    background-size: cover;
+}
+.outer-box {
+    height: 550px;
+    width: 70%;
+    background-color: #FBF3F0;
+    margin-left: 25%;
+    margin-top: 200px;
+    border-radius: 60px;
+}
+.inner-box {
+    height: 100%;
+    width: 50%;
+    margin-left: 40%;
+}
+.inner-title {
+    font-size: 48px;
+    font-weight: 800;
+    padding-top: 200px;
+    color: #494980;
+}
+.inner-text {
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 50px;
+    color: #494980;
+}
+.pic-4 {
+    position: absolute;
+    height: 562px;
+    width: 547px;
+    background: url("../images/Group48095664.png") no-repeat center;
+    background-size: cover;
+    transform: translate(150px,-460px);
+}
+.div-5 {
+    height: 700px;
+    width: 100%;
+    margin-top: 250px;
+    display: flex;
+}
+.div-5-left {
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+.div-5-right {
+    height: 100%;
+    width: 50%;
+    float: right;
+    background: url("../images/Group48095674.png") no-repeat center;
+    background-size: cover;
+}
+.div-5-left .title-5 {
+    font-size: 46px;
+    color: #494980;
+    font-weight: 800;
+    font-family: "Gotham", sans-serif;
+    padding-top: 250px;
+    padding-right: 10%;
+    padding-left: 10%;
+    text-align: center;
+}
+.div-5-left .text-5 {
+    font-size: 18px;
+    color: #494980;
+    font-weight: 600;
+    font-family: "Gotham", sans-serif;
+    padding-top: 50px;
+    padding-right: 10%;
+    padding-left: 10%;
+    text-align: center;
+    line-height: 1.7;
 }
