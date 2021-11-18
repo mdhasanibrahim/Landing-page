@@ -16,6 +16,7 @@
     text-align: center;
     font-family: "Gotham", sans-serif;
     color: #494980;
+    margin: auto;
 }
 .inner-text-section h1{
     font-size: 46px;
@@ -27,6 +28,7 @@
 }
 .btn-div {
     display: flex;
+    margin: auto;
 }
 .btn-div button{
     height: 72px;
@@ -339,4 +341,44 @@
     padding-left: 10%;
     text-align: center;
     line-height: 1.7;
+}
+
+@media(max-width:1100px){
+    .outer {
+        width: 70%;
+    }
+}
+@media(max-width:850px){
+    .outer {
+        width: 80%;
+    }
+    .btn-div button{
+        height: 60px;
+        width: 180px;
+    }
+    .btn-div .btn-1 {
+        margin-left: 40px;
+    }
+}
+@media(max-width:630px){
+    .outer {
+        width: 95%;
+    }
+    .btn-div {
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn-div .btn-1 {
+        margin-left: 0px;
+    }
+    .btn-div .btn-2 {
+        margin-left: -40px;;
+        margin-top: -40px;
+    }
+    .inner-text-section h1{
+        font-size: 40px;
+    }
+    .inner-text-section p{
+        font-size: 17px;
+    }
 }

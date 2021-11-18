@@ -3,7 +3,7 @@ import "../css/Features.css";
 
 const Features = () => {
     return (
-        <div className="features" id="features-page">
+        <div className="features" id="download-page">
             <div className="outer">
                 <div className="inner">
                     <div className="inner-text-section">
@@ -16,8 +16,8 @@ const Features = () => {
                     </div>
                 </div>
             </div>
-            <div className="circle"></div>
-            <div className="oval"></div>
+            {/* <div className="circle"></div> */}
+            {/* <div className="oval"></div> */}
             <div className="header-1"><h1>Match. Chat. Date</h1></div>
             <div className="behind-pic"></div>
             <div className="phn-pic"></div>
@@ -49,13 +49,13 @@ const Features = () => {
                     <div className="readmore-btn" id="bottom-right-btn">Read more...</div>
                 </div>
             </div>
-            <div className="header-2"><h1>Smart Match Feed</h1></div>
+            <div className="header-2" id="features-page"><h1>Smart Match Feed</h1></div>
             <div className="header-2-text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a </div>
-            <div className="circle-2"></div>
+            {/* <div className="circle-2"></div> */}
             <div className="pic-2"></div>
             <div className="header-3"><h1>Live Streaming</h1></div>
             <div className="header-3-text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a </div>
-            <div className="circle-3"></div>
+            {/* <div className="circle-3"></div> */}
             <div className="pic-3"></div>
             <div className="outer-box">
                 <div className="inner-box">
