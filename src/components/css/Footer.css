@@ -1,6 +1,10 @@
 li:not(:last-child) {
     margin-bottom: 10px;
 }
+li a {
+    text-decoration:none;
+    color: #8B8D8F;
+}
 .outer-footer {
     height: 500px;
     width: 100%;
@@ -9,7 +13,7 @@ li:not(:last-child) {
 }
 .inner-1 {
     height: 220px;
-    width: 230px;
+    width: 235px;
     margin-left: 8%;
     margin-top: 200px;
     margin-right: 3%;
@@ -39,7 +43,7 @@ li:not(:last-child) {
 }
 .inner-3 {
     height: 220px;
-    width: 220px;
+    width: 230px;
     margin-top: 200px;
     margin-right: 3%;
 }
@@ -62,7 +66,6 @@ li:not(:last-child) {
     padding-bottom: 20px;
 }
 .pera {
-    color: #8B8D8F;
     font-size: 18px;
     font-weight: 500;
 }

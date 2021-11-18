@@ -16,28 +16,28 @@ const Footer = () => {
                 <div className="inner-2">
                     <ul className="list">
                         <li className="title">Company</li>
-                        <li className="pera">Inside Loveria</li>
-                        <li className="pera">Jobs</li>
-                        <li className="pera">Blog</li>
-                        <li className="pera">Press</li>
-                        <li className="pera">Stories</li>
+                        <li className="pera"><a href="#">Inside Loveria</a></li>
+                        <li className="pera"><a href="#">Jobs</a></li>
+                        <li className="pera"><a href="#">Blog</a></li>
+                        <li className="pera"><a href="#">Press</a></li>
+                        <li className="pera"><a href="#">Stories</a></li>
                     </ul>
                 </div>
                 <div className="inner-3">
                 <ul className="list">
                         <li className="title">Business</li>
-                        <li className="pera">App promotion</li>
-                        <li className="pera">Partnerships</li>
-                        <li className="pera">Affiliate program</li>
+                        <li className="pera"><a href="#">App promotion</a></li>
+                        <li className="pera"><a href="#">Partnerships</a></li>
+                        <li className="pera"><a href="#">Affiliate program</a></li>
                     </ul>
                 </div>
                 <div className="inner-4">
                 <ul className="list">
                         <li className="title">More</li>
-                        <li className="pera">Contact & Support</li>
-                        <li className="pera">Tearms & Conditions</li>
-                        <li className="pera">Privacy Policy</li>
-                        <li className="pera">Security</li>
+                        <li className="pera"><a href="#">Contact & Support</a></li>
+                        <li className="pera"><a href="#">Tearms & Conditions</a></li>
+                        <li className="pera"><a href="#">Privacy Policy</a></li>
+                        <li className="pera"><a href="#">Security</a></li>
                     </ul>
                 </div>
                 <div className="inner-5">
