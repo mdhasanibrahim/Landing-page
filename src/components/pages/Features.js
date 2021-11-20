@@ -66,8 +66,8 @@ const Features = () => {
             <div className="pic-4"></div>
             <div className="div-5">
                 <div className="div-5-left">
-                    <div className="title-5">Connecting People</div>
-                    <div className="text-5">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'</div>
+                    <div className="title-5"><span id="title-span">Connecting People</span></div>
+                    <div className="text-5"><span id="text-span">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'</span></div>
                 </div>
                 <div className="div-5-right"></div>
             </div>

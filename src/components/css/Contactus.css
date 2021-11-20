@@ -2,7 +2,7 @@
     height: 641px;
     width: 100%;
     background: linear-gradient(to right, #FDF5F5, #FEF8F8);
-    margin-top: 200px;
+    margin-top: 100px;
 }
 .inner-div {
     height: 407px;
@@ -51,4 +51,36 @@
     transform: translate(732px, -66px);
     background: url("../images/Group48095675.png") no-repeat center;
     background-size: cover;
+}
+@media(max-width: 1180px) {
+    .inner-div {
+        height: 407px;
+        width: 700px;
+        background: url("../images/Group10562.png") no-repeat center;
+        background-size: cover;
+    }
+    .send-btn button {
+        transform: translate(389px, -66px);
+    }
+}
+@media(max-width: 720px) {
+    .outer-div {
+        height: 750px;
+    }
+    .inner-div {
+        height: 500px;
+        width: 400px;
+        background: url("../images/Group788.png") no-repeat center;
+        background-size: cover;
+    }
+    .field-email ::placeholder {
+        padding-left: 20px;
+    }
+    .send-btn button {
+        width: 97px;
+        transform: translate(245px, -66px);
+    }
+    .field-email input {
+        width: 70%;
+    }
 }
