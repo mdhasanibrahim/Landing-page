@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="outer-footer">
                 <div className="inner-1">
                     <ul className="list">
-                        <li className="title-1">Loveria</li>
+                        <li className="title-1">Aashiqui</li>
                         <li className="para-1">Match chat date anytime anywhere. Just swipe.</li>
                     </ul>
                 </div>

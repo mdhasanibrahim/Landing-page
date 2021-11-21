@@ -39,6 +39,10 @@ button {
     border: 2px solid white;
     margin-top: 35px;
 }
+.home-contents .btn-find-love:hover {
+    background-color: rgba(152, 176, 248, 0.3);
+    font-size: 20px;
+}
 .home-contents .line-3 {
     color: white;
     font-size: 56px;

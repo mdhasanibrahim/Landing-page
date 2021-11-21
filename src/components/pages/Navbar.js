@@ -12,7 +12,7 @@ const Navbar = () => {
             <nav className="navbar">
                 <div className="max-width">
                     <div className="logo">
-                        <a href="#home-page"><img className="icon" src={iconImage}/></a></div>
+                        <a href="#home-page"><img className="icon" src={iconImage} alt="Logo"/></a></div>
                          <div className="menu" id={showLinks ? "hidden" : ""}>
                             <a onClick={()=> setShowLinks(false)} href="#home-page">Home</a>
                             <a onClick={()=> setShowLinks(false)} href="#download-page">Download</a>

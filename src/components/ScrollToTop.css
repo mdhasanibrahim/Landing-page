@@ -1,0 +1,19 @@
+.scroll-to-top {
+  position: fixed;
+  bottom: 0.5rem;
+  right: 0.8rem;
+  transform: scale(2);
+  animation: fadeIn 700ms ease-in-out 1s both;
+  cursor: pointer;
+}
+.scroll-to-top-icon {
+    opacity: 0.4;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
