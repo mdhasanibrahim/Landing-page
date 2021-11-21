@@ -1,54 +1,4 @@
-.outer {
-    height: 471px;
-    width: 50%;
-    background-color: #FBF3F0;
-    margin: auto;
-    transform: translateY(200px);
-    border-radius: 100px;
-}
-.inner {
-    height: auto;
-    width: 100%;
-    margin: auto;
-    transform: translateY(50%);
-}
-.inner-text-section {
-    text-align: center;
-    font-family: "Gotham", sans-serif;
-    color: #494980;
-    margin: auto;
-}
-.inner-text-section h1{
-    font-size: 46px;
-    font-weight: 800;
-}
-.inner-text-section p{
-    font-size: 18px;
-    font-weight: 400;
-}
-.btn-div {
-    justify-content: center;
-    display: flex;
-    margin: auto;
-}
-.btn-div button{
-    height: 72px;
-    width: 228px;
-    border-radius: 50px;
-    border: none;
-    margin-top: 60px;
-}
-.btn-div .btn-1 button{
-    margin-right: 20px;
-    background: url("../images/Group48095582.png") no-repeat center;
-    background-size: cover;
-}
-.btn-div .btn-2 button{
-    margin-left: 20px;
-    background: url("../images/Group48095585.png") no-repeat center;
-    background-size: cover;
-}
-.circle {
+/* .circle {
     position: absolute;
     height: 318px;
     width: 318px;
@@ -63,11 +13,11 @@
     border-radius: 500px / 400px;
     border: 15px dashed #FBF3F0;
     transform: rotate(-35deg) translate(1100px, 650px);
-}
+} */
 .header-1 {
     width: 60%;
     margin: auto;
-    padding-top: 400px;
+    padding-top: 200px;
     text-align: center;
 }
 .header-1 h1 {
@@ -267,7 +217,7 @@
     height: 67vw;
     width: 74.52vw;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 150px;
     background: url("../images/Group48095647.png") no-repeat center;
     background-size: cover;
 }
@@ -346,44 +296,7 @@
     line-height: 1.7;
 }
 
-@media(max-width:1100px){
-    .outer {
-        width: 70%;
-    }
-}
-@media(max-width:850px){
-    .outer {
-        width: 80%;
-    }
-    .btn-div button{
-        height: 60px;
-        width: 180px;
-    }
-}
-@media(max-width:630px){
-    .outer {
-        height: 550px;
-        width: 90%;
-    }
-    .btn-div {
-        flex-direction: column;
-        align-items: center;
-    }
-    .btn-div .btn-1 button{
-        margin: auto;
-        margin-top: 50px;
-    }
-    .btn-div .btn-2 button{
-        margin: auto;
-        margin-top: 20px;
-    }
-    .inner-text-section h1{
-        font-size: 35px;
-    }
-    .inner-text-section p{
-        font-size: 16px;
-    }
-}
+
 
 @media(max-width: 1400px) {
     .upper-div {

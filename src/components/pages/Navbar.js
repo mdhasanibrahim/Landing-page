@@ -15,8 +15,8 @@ const Navbar = () => {
                         <a href="#home-page"><img className="icon" src={iconImage}/></a></div>
                          <div className="menu" id={showLinks ? "hidden" : ""}>
                             <a onClick={()=> setShowLinks(false)} href="#home-page">Home</a>
-                            <a onClick={()=> setShowLinks(false)} href="#features-page">Features</a>
                             <a onClick={()=> setShowLinks(false)} href="#download-page">Download</a>
+                            <a onClick={()=> setShowLinks(false)} href="#features-page">Features</a>
                             <a onClick={()=> setShowLinks(false)} href="#contact-us-page">Contact Us</a>
                         </div>
                         <button className="nav-btn" onClick={()=> setShowLinks(!showLinks)}>
