@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import { AiOutlineMenu } from "react-icons/ai";
 import "../css/Navbar.css";
+import iconImage from "../images/icon.png";
 
 const Navbar = () => {
 
@@ -11,7 +12,7 @@ const Navbar = () => {
             <nav className="navbar">
                 <div className="max-width">
                     <div className="logo">
-                        <a href="#home-page">Loveria</a></div>
+                        <a href="#home-page"><img className="icon" src={iconImage}/></a></div>
                          <div className="menu" id={showLinks ? "hidden" : ""}>
                             <a onClick={()=> setShowLinks(false)} href="#home-page">Home</a>
                             <a onClick={()=> setShowLinks(false)} href="#features-page">Features</a>

@@ -31,7 +31,7 @@
 }
 .field-email input{
     height: 65px;
-    width: 50%;
+    width: 40%;
     background-color: #FFF1F1;
     border-radius: 130px;
     border: none;
@@ -40,7 +40,14 @@
     color: #494980;
     font-size: 18px;
     font-weight: 600;
+    padding-left: 0;
+    opacity: 0.5;
+}
+.field-email input[type = email] {
+    font-size: 18px;
+    font-weight: 600;
     padding-left: 50px;
+    padding-right: 155px;
 }
 .send-btn button {
     position: absolute;
@@ -48,7 +55,7 @@
     width: 148px;
     border-radius: 130px;
     border: none;
-    transform: translate(732px, -66px);
+    transform: translate(773px, -66px);
     background: url("../images/Group48095675.png") no-repeat center;
     background-size: cover;
 }
@@ -59,8 +66,18 @@
         background: url("../images/Group10562.png") no-repeat center;
         background-size: cover;
     }
+    .field-email input {
+        width: 30%;
+    }
+    .field-email ::placeholder {
+        padding-left: 0;
+    }
     .send-btn button {
-        transform: translate(389px, -66px);
+        transform: translate(409px, -66px);
+    }
+    .field-email input[type = email] {
+        padding-left: 50px;
+        padding-right: 155px;
     }
 }
 @media(max-width: 720px) {
@@ -74,13 +91,40 @@
         background-size: cover;
     }
     .field-email ::placeholder {
-        padding-left: 20px;
+        padding-left: 0;
     }
     .send-btn button {
         width: 97px;
-        transform: translate(245px, -66px);
+        transform: translate(237px, -66px);
     }
     .field-email input {
-        width: 70%;
+        width: 35%;
+    }
+    .field-email ::placeholder {
+        font-size: 15px;
+    }
+    .field-email input[type = email] {
+        padding-left: 25px;
+        padding-right: 105px;
+        font-size: 15px;
+    }
+}
+@media(max-width: 420px) {
+    .inner-div {
+        height: 500px;
+        width: 348px;
+    }
+    .send-btn button {
+        transform: translate(211px, -66px);
+    }
+    .field-email {
+        margin-top: 30px;
+    }
+    .field-email input {
+        width: 40%;
+    }
+    .field-email input[type = email] {
+        padding-left: 25px;
+        padding-right: 105px;
     }
 }

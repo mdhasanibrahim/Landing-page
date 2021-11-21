@@ -14,12 +14,12 @@
     margin: auto;
 }
 .logo a{
-    color: #FFC453;
-    font-size: 53.74px;
-    font-weight: 400;
     text-decoration:none;
     padding-right: 15%;
-    font-family: "Akronim", sans-serif;
+}
+.logo a .icon{
+    height: 74px;
+    width: 191px;
 }
 .max-width {
     display: flex;
@@ -43,16 +43,16 @@
 .navbar .nav-btn {
     border: none;
     background-color: transparent;
-      display: none;
-      margin-right: 5%;
+    display: none;
+    margin-right: 5%;
   }
 #hidden {
       display: flex;
   }
 .menu-btn {
-     color: white;
-      transform: scale(2.5);
-      cursor: pointer;
+    color: white;
+    transform: scale(2.5);
+    cursor: pointer;
   } 
 .menu-btn:hover {
       border: 1px solid white;
@@ -68,7 +68,7 @@
         margin-right: 7.5%;
     }
 }
-@media(max-width:900px) {
+@media(max-width:915px) {
     .navbar .max-width {
         padding: 0 5%;
     }
@@ -79,7 +79,7 @@
         margin-left: 40px;
     }
 }
-@media(max-width:700px) {
+@media(max-width:765px) {
     .navbar .nav-btn{
         display: flex;
     }
@@ -89,7 +89,7 @@
     #hidden {
         position: absolute;
         left: 0px;
-        top: 80px;
+        top: 89px;
         height: auto;
         width: 100%;
         background-color: rgba(31, 42, 56, 0.5);
